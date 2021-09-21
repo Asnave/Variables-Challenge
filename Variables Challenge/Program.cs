@@ -39,7 +39,7 @@ namespace Variables_Challenge
 
 
             //Score ---------
-
+            Console.WriteLine("---------HUD---------");
             int score;
             score = 0;
 
@@ -85,10 +85,12 @@ namespace Variables_Challenge
             experiencePoints = experiencePoints * multiplier;
 
             Console.WriteLine("ExperiencePoints: " + experiencePoints);
+            Console.WriteLine("---------------------");
 
             Console.WriteLine("You wake up in a kitchen, a note on the counter states:" +
                 " for you to pass you must cook your first dish...");
-
+            Console.WriteLine("press any key to start....");
+            Console.ReadKey(true);
             Console.WriteLine("");
 
             // Game Factors ------
@@ -110,10 +112,10 @@ namespace Variables_Challenge
 
 
 
-            
+
             //Score ---------
 
-            
+            Console.WriteLine("---------HUD---------");
             score = 0;
 
             score = score + cookingPoints;
@@ -158,11 +160,12 @@ namespace Variables_Challenge
             experiencePoints = experiencePoints * multiplier;
 
             Console.WriteLine("ExperiencePoints: " + experiencePoints);
+            Console.WriteLine("---------------------");
 
             Console.WriteLine(" ");
-            Console.WriteLine("As you finsished your last dish you notice : ");
+            Console.WriteLine("As you finsished your first dish you notice : ");
             Console.WriteLine("");
-            Console.WriteLine("You gained 100 cookig points");
+            Console.WriteLine("You gained 100 cooking points");
             Console.WriteLine("you took -5 damange");
             Console.WriteLine("your Frying Pan shield took half its damage");
             Console.WriteLine("Your Experience Points grew to + 15 with your XP Multiplier engaged");
