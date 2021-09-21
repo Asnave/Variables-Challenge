@@ -160,11 +160,12 @@ namespace Variables_Challenge
             Console.WriteLine("ExperiencePoints: " + experiencePoints);
 
             Console.WriteLine(" ");
-            Console.WriteLine("As you finsished your last dish you notice : " +
-                "You gained 100 cookig points" +
-                "your took -5 damange" +
-                "your Frying Pan shield took half its damage" +
-                "Your Experience Points grew to + 15 with your XP Multiplier engaged");
+            Console.WriteLine("As you finsished your last dish you notice : ");
+            Console.WriteLine("");
+            Console.WriteLine("You gained 100 cookig points");
+            Console.WriteLine("you took -5 damange");
+            Console.WriteLine("your Frying Pan shield took half its damage");
+            Console.WriteLine("Your Experience Points grew to + 15 with your XP Multiplier engaged");
 
 
             Console.ReadKey(true);
