@@ -10,9 +10,13 @@ namespace Variables_Challenge
     {
         static void Main(string[] args)
         {
+
+            Console.ForegroundColor = ConsoleColor.Green;
+ 
             string gameTitle;
             gameTitle = "The Legend Of Thyme";
             Console.WriteLine(gameTitle);
+            Console.ResetColor();
 
             Console.ReadKey(true);
 
@@ -164,8 +168,13 @@ namespace Variables_Challenge
             Console.WriteLine(" unfortunitly for you,");
             Console.WriteLine("you notice the lack of experience points you have in cooking.");
             Console.WriteLine("daydreaming, you mistaken your finger to be one of the carrots, cutting the tip clean off.");
+
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Taking -5 Damage");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Gaining +5 experience points knowing you wont make that mistake again....");
+            Console.ResetColor();
             Console.WriteLine("");
             Console.ReadKey(true);
 
@@ -237,8 +246,12 @@ namespace Variables_Challenge
             Console.WriteLine("Weilding the frying pan allows you to saute the now cut vegtables");
             Console.WriteLine("not really kowing what your doing, you start burning everything, including the pan.");
             Console.WriteLine("Fortunitly it shielded the hot oils from your eyes with the cover");
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Your Frying Pan taking half its utillity Percentage.");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Gaining +5 Cooking points to your Score for cleaverness.");
+            Console.ResetColor();
             Console.WriteLine("");
             Console.ReadKey(true);
 
@@ -311,8 +324,10 @@ namespace Variables_Challenge
             Console.WriteLine("You take the best part of the meat, spitting it over a fire till you get medieval style rotisserie.");
             Console.WriteLine("picking through the scraps you find one of the legs of the chicken, finding out its a charm of sorts");
             Console.WriteLine("Granting you with a small XP Multiplier!");
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("You gain +20 cooking points for the lack of chaos");
             Console.WriteLine("You gain +5 Experience points");
+            Console.ResetColor();
             Console.WriteLine("");
             Console.ReadKey(true);
 
@@ -403,8 +418,10 @@ namespace Variables_Challenge
             Console.WriteLine("As you finsished your dish you notice : ");
             Console.WriteLine("");
             Console.WriteLine("A door starts to open allowing you to leave, ");
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("With that you gain +100 cooking points");
             Console.WriteLine("Aswell as +15 XP");
+            Console.ResetColor();
             Console.WriteLine("");
 
 
